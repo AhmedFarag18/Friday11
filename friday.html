@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Friday</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <h2> إِنَّ اللَّهَ وَمَلَائِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ <br><span>يَا أَيُّهَا الَّذِينَ آمَنُواصَلُّوا عَلَيْهِ وَسَلِّمُوا تَسْلِيمًا</span> </h2>
+        <div class="black"></div>
+    </section>
+
+    <script>
+        const black = document.querySelector('.black');
+        window.onmousemove = function(e) {
+            const x = e.clientX;
+            black.style.left = x + 'px';
+        }
+    </script>
+
+</body>
+
+</html>
