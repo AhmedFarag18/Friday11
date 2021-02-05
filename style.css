@@ -29,7 +29,7 @@ section h2 span {
     font-size: 7vw;
     font-weight: 800;
     color: transparent;
-    -webkit-text-stroke: 0.01vw #000;
+    -webkit-text-stroke: 0.1vw #000;
 }
 
 section .black {
